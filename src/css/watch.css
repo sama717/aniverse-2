@@ -1,0 +1,142 @@
+.watch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #FBFEF9;
+}
+
+.watch h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top:3em ;
+    width: 100%;
+    text-align: center;
+    width: 50%;
+    background-color: #0e1111;
+    color: white;
+    padding: 0.5em 2em;
+}
+
+.watch ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+    padding: 0.5em 2em;
+    margin-top: 1em;    
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.watch ul li{
+    margin: 0 1em;
+    cursor: pointer;
+    background-color: #0e1111;
+    padding: 1em 2em;
+    border-radius: 2em;
+    transition: all 0.3s;
+}
+
+.watch ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.chainsaw:hover{
+    background-color: #f25d34;
+    transform: scale(1.1);
+}
+
+.demon-slayer:hover{
+    background-color: #f6bbbe;
+    transform: scale(1.1);
+}
+
+.jjk:hover{
+    background-color: #C7383C;
+    transform: scale(1.1);
+}
+
+.one-piece:hover{
+    background-color: #1560BD;
+    transform: scale(1.1);
+}
+
+.vid-frame{
+    width: 60%;
+    padding: 2em;
+    min-width: 400px;
+}
+
+iframe{
+    width: 95%;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    color: white;
+    background-color: #0e1111;
+    min-width: 600px;
+}
+
+
+.platforms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2em;
+    font-size: 1.5rem;
+    height: 80%;
+    width: 5%;
+    font-size: 2rem;
+    padding: 0.5em;
+    min-height: 100px;
+}
+
+.platforms i{
+    margin-bottom: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.platforms i:hover{
+    transform: scale(1.1);
+}
+
+.fa-youtube:hover{
+    background-color: #FF0000;
+}
+
+.fa-safari:hover{
+    background-color: #0FB5EE;
+}
+
+.fa-chrome:hover{
+    background-color: #FFCD46;
+}
+
+.fa-firefox:hover{
+    background-color: #FF9900;
+}
+
+.fa-edge:hover{
+    background-color: #0078D7;
+}

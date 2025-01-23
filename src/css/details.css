@@ -1,0 +1,161 @@
+/* Container for the product details */
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 80%; /* Adjust width for better alignment */
+    max-width: 1200px; /* Limit maximum width */
+    margin: 0 auto; /* Center the container */
+}
+
+.product-details .back-button {
+    margin-top: 8em;
+}
+
+/* Back button styling */
+.btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for details section (image on the left, details on the right) */
+.details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px; /* Adjust the gap between image and text */
+}
+
+/* Style for the product section (image + title) */
+.product {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #333 2px solid;
+    border-radius: 2em;
+    width: 50%; /* Adjusted to take less space */
+    padding: 2em;
+    height: 600px;
+}
+
+/* Style for the product image with object-fit */
+.product-details img {
+    width: 100%; /* Make the image take up the full width of its container */
+    height: auto; /* Maintain aspect ratio of the image */
+    object-fit: cover; /* Ensures the image covers the entire area */
+    max-width: 280px; /* Adjust to ensure image is not too large */
+    margin-top: 2em;
+}
+
+/* Product title styling */
+.product-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 1.2; /* Reduce line height for better alignment */
+}
+
+/* Style for product description and pricing */
+.buttons {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Ensure it takes full width */
+}
+
+/* Styling for the quantity controls */
+.quantity-controls {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Align with the button width */
+}
+
+.quantity-controls button {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.quantity-controls span {
+    font-size: 1.5rem;
+    margin: 0 10px;
+}
+
+/* Styling for the Add to Cart button */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Increase padding for better button size */
+    cursor: pointer;
+    font-size: 1.1rem; /* Slightly larger font size */
+    width: 100%; /* Make button take full width of the container */
+    max-width: 320px; /* Prevent it from becoming too wide */
+    margin-top: 15px; /* Add top margin for spacing */
+}
+
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .details {
+        flex-direction: column; /* Stack the image and details vertically on smaller screens */
+        align-items: center;
+    }
+
+    .product-details h1 {
+        font-size: 20px;
+    }
+
+    .product-details p {
+        font-size: 14px;
+    }
+
+    .quantity-controls {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .product-details img {
+        width: 80%; /* Adjust image width for smaller screens */
+    }
+
+    .product {
+        width: 80%; /* Make product section smaller on smaller screens */
+    }
+
+    .btn-primary {
+        max-width: 100%; /* Ensure the button takes full width */
+    }
+}

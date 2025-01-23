@@ -1,0 +1,144 @@
+body {
+    background-color: #FBFEF9;
+}
+
+.main-store {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; /* Align items to the start */
+    align-items: flex-start; /* Align items to the top */
+    width: 100%;
+    height: fit-content;
+}
+
+.main-store h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center; 
+    width: 100%;
+    min-width: 245px;
+    padding: 0.5em 2em;
+    margin-top: 4em;
+}
+
+.store{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* Align items to the start */
+    align-items: flex-start; /* Align items to the top */
+    width: 100%;
+    height: fit-content;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 20%; /* Adjust width to make space for the content */
+    padding: 1em; /* Add some padding */
+    background-color: #333; /* Optional: Make the sidebar stand out */
+    color: white; /* Ensure text is visible */
+    margin: 0;
+    margin: 1em 0em 2em;
+    border-radius: 1em;
+}
+
+.categories, .filters {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the start */
+    text-align: left; /* Align text to the left */
+    height: fit-content;
+    width: 100%;
+}
+
+.categories h2 , .filters h2 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    width: 100%; /* Take the full width */
+    padding: 0.5em 0;
+    margin-top: 1em;
+}
+
+.categories ul , .filters ul {
+    list-style-type: none;
+    padding-left: 0; /* Remove default padding */
+}
+
+.categories li, .filters li {
+    padding: 0.5em 0;
+    cursor: pointer;
+}
+
+.shop {
+    width: 80%; 
+    padding: 1em 2em;
+    text-align: center; 
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.card img {
+    width: 100%; /* Make the image take up the full width */
+    height: 200px; /* Maintain aspect ratio for height */
+    object-fit: contain; /* Ensures the image covers the width of the container */
+    transition: all 0.3s;
+    margin-top: 1em;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-text, .badge {
+    margin-top: 0.5em;
+}
+
+@media screen and (max-width: 1133px) {
+    .store{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align items to the start */
+    align-items: center; /* Align items to the top */
+    width: 100%;
+    height: fit-content;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 80%; /* Adjust width to make space for the content */
+    padding: 1em; /* Add some padding */
+    background-color: #333; /* Optional: Make the sidebar stand out */
+    color: white; /* Ensure text is visible */
+    margin: 0;
+    margin: 1em 0em 2em;
+    border-radius: 1em;
+}
+}

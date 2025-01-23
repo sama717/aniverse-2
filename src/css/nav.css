@@ -1,0 +1,96 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 4em;
+    height: 20vh;
+    width: 100%;
+}
+
+.left-nav{
+    margin: 0;
+    width: 45%;
+}
+
+.left-nav img{
+    width: 150px;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.left-nav img:hover{
+    transform: scale(1.1);
+}
+
+.right-nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.right-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.right-nav ul li{
+    margin-left: 2em;
+}
+
+.login-btn{
+    transition: all 0.3s;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.navigation .nav-link{
+    transition: all 0.3s;
+}
+
+.navigation .nav-link:hover{
+    transform: scale(1.1);
+}
+
+.navbar-toggler i{
+    color: black;
+}
+
+
+@media screen and (max-width: 991px) {
+
+   .left-nav img:hover{
+    transform: none;
+   }
+   .navigation .nav-link:hover{
+    transform: none;
+   }
+   .right-nav{
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    font-family: "Ubuntu", sans-serif;
+    text-align: right;
+    background-color: black;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+    .right-nav a{
+        color: white;
+    }
+
+    .right-nav li{
+        margin-bottom: 1em;
+    }
+
+    .right-nav i{
+        color: white ! important;
+    }
+}

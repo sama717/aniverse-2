@@ -1,0 +1,157 @@
+[
+    {
+      "id": 1,
+      "title": "Naruto Manga Vol. 1",
+      "price": 10,
+      "category": "Manga",
+      "rating": 4.5,
+      "available": true,
+      "img": "../src/assets/71WECnGLtIL.jpg",
+      "isFavorite": false,
+      "description": "Join Naruto on his journey to become the strongest ninja in the Hidden Leaf Village. This volume covers the start of his adventure!"
+    },
+    {
+      "id": 2,
+      "title": "Anime Hoodie",
+      "price": 30,
+      "category": "Clothing",
+      "rating": 4.8,
+      "available": false,
+      "img": "../src/assets/hoodie.jpg",
+      "isFavorite": false,
+      "description": "Stay cozy with this stylish anime hoodie featuring your favorite JJK characters. Perfect for chilly days!"
+    },
+    {
+      "id": 3,
+      "title": "Attack on Titan Keychain",
+      "price": 5,
+      "category": "Accessories",
+      "rating": 4.2,
+      "available": true,
+      "img": "../src/assets/keychain-aot.png",
+      "isFavorite": false,
+      "description": "Carry a piece of the epic Attack on Titan world with this durable keychain. A must-have for any fan!"
+    },
+    {
+      "id": 4,
+      "title": "One Piece Figurine",
+      "price": 120,
+      "category": "Figurines",
+      "rating": 4.9,
+      "available": true,
+      "img": "../src/assets/figurine.jpg",
+      "isFavorite": false,
+      "description": "A stunning figurine of Luffy, the main character from One Piece. The perfect addition to your collection!"
+    },
+    {
+      "id": 5,
+      "title": "Dragon Ball Z Game",
+      "price": 80,
+      "category": "Video Games",
+      "rating": 4.7,
+      "available": true,
+      "img": "../src/assets/Namco-Dragon-Ball-Z-Battle-Of-Z-Fighting-Game-XBOX-360_72715904-54b4-420a-aa57-c73147e86ff5.5783bd9969ee39f336b800d89df7c953.webp",
+      "isFavorite": false,
+      "description": "Engage in fast-paced battles with iconic Dragon Ball Z characters. Defeat your rivals and become the ultimate fighter!"
+    },
+    {
+      "id": 6,
+      "title": "JJK Manga Vol. 2",
+      "price": 12,
+      "category": "Manga",
+      "rating": 4.6,
+      "available": true,
+      "img": "../src/assets/jjkmanga.jpg",
+      "isFavorite": false,
+      "description": "Explore more of the world of Jujutsu Kaisen with this thrilling second volume. New battles and deeper secrets await!"
+    },
+    {
+      "id": 7,
+      "title": "Anime Shirt",
+      "price": 35,
+      "category": "Clothing",
+      "rating": 4.8,
+      "available": true,
+      "img": "../src/assets/male-black-tall-oversized-anime-back-print-t-shirt-removebg-preview.png",
+      "isFavorite": false,
+      "description": "Wear your love for anime proudly with this comfortable oversized shirt. Perfect for casual wear or anime conventions!"
+    },
+    {
+      "id": 8,
+      "title": "FMA Keychain",
+      "price": 7,
+      "category": "Accessories",
+      "rating": 4.3,
+      "available": true,
+      "img": "../src/assets/fma-keychain.jpg",
+      "isFavorite": false,
+      "description": "This Fullmetal Alchemist keychain is a small but meaningful accessory for any fan. Carry a symbol of alchemy everywhere!"
+    },
+    {
+      "id": 9,
+      "title": "One Piece Pirate Ship",
+      "price": 200,
+      "category": "Figurines",
+      "rating": 5,
+      "available": false,
+      "img": "../src/assets/one-piece-ship.webp",
+      "isFavorite": false,
+      "description": "This highly detailed model of the Going Merry is perfect for display. A must-have for collectors!"
+    },
+    {
+      "id": 10,
+      "title": "Demon Slayer: THC",
+      "price": 60,
+      "category": "Video Games",
+      "rating": 5,
+      "available": true,
+      "img": "../src/assets/demon slayer game.jpg",
+      "isFavorite": false,
+      "description": "Battle demons in this action-packed game based on the hit anime Demon Slayer. Fight alongside your favorite characters!"
+    },
+    {
+      "id": 11,
+      "title": "Tokyo Ghoul Mask",
+      "price": 25,
+      "category": "Accessories",
+      "rating": 4.4,
+      "available": true,
+      "img": "../src/assets/517xfbYx-yL._AC_UY1100_.jpg",
+      "isFavorite": false,
+      "description": "Transform into a ghoul with this Tokyo Ghoul-inspired mask. Perfect for cosplay or Halloween!"
+    },
+    {
+      "id": 12,
+      "title": "BNHA Backpack",
+      "price": 40,
+      "category": "Clothing",
+      "rating": 4.7,
+      "available": true,
+      "img": "../src/assets/My-Hero-Academia-Unisex-All-Over-Print-Character-Backpack-Blue-Multi-Color_f191ea0c-1800-4328-9e0d-9ea95474ea05.0c671c8bce84051fbe767e6536bcb02b.webp",
+      "isFavorite": false,
+      "description": "Show off your favorite BNHA characters with this trendy all-over-print backpack. Great for school or everyday use!"
+    },
+    {
+      "id": 13,
+      "title": "FMA Figurine",
+      "price": 180,
+      "category": "Figurines",
+      "rating": 4.8,
+      "available": true,
+      "img": "../src/assets/fma-figure.jpg",
+      "isFavorite": false,
+      "description": "This stunning Fullmetal Alchemist figurine captures the essence of the series. A perfect collectible for any fan of the show!"
+    },
+    {
+      "id": 14,
+      "title": "Naruto Game",
+      "price": 70,
+      "category": "Video Games",
+      "rating": 4.6,
+      "available": true,
+      "img": "../src/assets/narutogame.jpg",
+      "isFavorite": false,
+      "description": "Step into the world of Naruto and take on epic missions in this action-packed video game. Great for fans of the anime!"
+    }
+  ]
+  
